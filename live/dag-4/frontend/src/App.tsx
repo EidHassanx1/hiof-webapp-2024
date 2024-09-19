@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { useState } from "react";
 import Card from "./components/Card";
 // import Title from "./components/Title";
@@ -42,3 +43,20 @@ function App() {
 }
 
 export default App
+=======
+import Card from "./components/Card";
+import Title from "./components/Title";
+
+function App() {
+  return (
+    <section>
+      <Title title="Produkter" />
+      <Title title="Medlemstilbud" />
+      <Card title="CardTitle" description="CardDescription" />
+      <Card title="CardTitle Two" description="CardDescription Two" />
+    </section>
+  );
+}
+
+export default App;
+>>>>>>> d76f377290cd23b6d12c1da4609012ad39f0c40e

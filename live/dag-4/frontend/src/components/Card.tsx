@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import Title from "./Title";
 
 type CardProps = {
@@ -22,3 +23,19 @@ type CardProps = {
       </article>
     );
   }
+=======
+type CardProps = {
+  title: string;
+  description: string;
+};
+
+export default function Card(props: CardProps) {
+  const { title = "Title", description = "Description" } = props;
+  return (
+    <article>
+      <h2>{title}</h2>
+      <p>{description}</p>
+    </article>
+  );
+}
+>>>>>>> d76f377290cd23b6d12c1da4609012ad39f0c40e
